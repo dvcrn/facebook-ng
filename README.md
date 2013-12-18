@@ -1,3 +1,6 @@
+![Built Status](https://travis-ci.org/dabido/facebook-ng.png "Build Status")
+
+
 # facebook-ng
 facebook-ng is directive / factory for wrapping the Facebook javascript SDK
 
@@ -9,7 +12,7 @@ Download the sources from this repository or simply use bower
 # How to use
 
 1. Add `facebook-ng` to your app. 
-2. Use the ```<facebook></facebook>``` directive to initialise the directive
+2. Use the ```<facebook></facebook>``` directive to initialise the module
 3. Request `Facebook` in DI for interacting with the facebook API
 
 # The directive
@@ -18,7 +21,15 @@ The directive supports all parameters from facebooks `FB.init` function: https:/
 All available options: 
 
 ```html
-<facebook appId="123" status="false" cookie="true" xfbml="false" oauth="true" frictionlessRequests="false" hideFlashCallback="null"></facebook>
+<facebook 
+    appId="123" 
+    status="false" 
+    cookie="true" 
+    xfbml="false" 
+    oauth="true" 
+    frictionlessRequests="false" 
+    hideFlashCallback="null"
+></facebook>
 ```
 
 # The factory
