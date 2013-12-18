@@ -1,7 +1,7 @@
 {
   "name": "facebook-ng",
-  "version": "0.0.2",
-  "description": "Facebook SDK wrapper for angularjs",
+  "version": "0.0.3",
+  "description": "Facebook SDK wrapper and directive for angularjs",
   "main": "Gruntfile.js",
   "directories": {
     "example": "examples",

@@ -1,6 +1,6 @@
 {
   "name": "facebook-ng",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "angular": "latest",
     "angular-mocks": "latest"
@@ -8,7 +8,7 @@
   "authors": [
     "David Mohl <dave@dave.cx>"
   ],
-  "description": "Facebook SDK wrapper for angularjs",
+  "description": "Facebook SDK wrapper and directive for angularjs",
   "main": "src/js/facebook-ng.js",
   "keywords": [
     "facebook",
