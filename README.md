@@ -1,7 +1,5 @@
-![Built Status](https://travis-ci.org/dabido/facebook-ng.png "Build Status")
-
-
 # facebook-ng
+![Built Status](https://travis-ci.org/dabido/facebook-ng.png "Build Status")
 facebook-ng is directive / factory for wrapping the Facebook javascript SDK
 
 # Install
