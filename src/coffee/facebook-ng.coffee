@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('ng-facebook', [])
+angular.module('facebook-ng', [])
   .factory('Facebook', ['$window', '$rootScope', '$q', ($window, $rootScope, $q) ->
     Facebook = {
       _init_promise: $q.defer()
