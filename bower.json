@@ -1,0 +1,27 @@
+{
+  "name": "facebook-ng",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": ">=1.0.4"
+  },
+  "authors": [
+    "David Mohl <dave@dave.cx>"
+  ],
+  "description": "Facebook SDK wrapper for angularjs",
+  "main": "src/js/facebook-ng.js",
+  "keywords": [
+    "facebook",
+    "angular",
+    "sdk",
+    "angularjs",
+    "facebook-ng"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
