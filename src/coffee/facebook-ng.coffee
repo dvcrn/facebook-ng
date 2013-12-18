@@ -43,10 +43,10 @@ angular.module('facebook-ng', [])
         config['xfbml'] = (attr['xfbml'] == 'true')
       if 'oauth' of attr
         config['oauth'] = (attr['oauth'] == 'true')
-      if 'frictionlessRequests' of attr
-        config['frictionlessRequests'] = (attr['frictionlessRequests'] == 'true')
-      if 'hideFlashCallback' of attr
-        config['hideFlashCallback'] = (attr['hideFlashCallback'] == 'true')
+      if 'frictionlessrequests' of attr
+        config['frictionlessRequests'] = (attr['frictionlessrequests'] == 'true')
+      if 'hideflashcallback' of attr
+        config['hideFlashCallback'] = (attr['hideflashcallback'] == 'true')
 
       Facebook.init(config)
 

@@ -52,11 +52,11 @@
         if ('oauth' in attr) {
           config['oauth'] = attr['oauth'] === 'true';
         }
-        if ('frictionlessRequests' in attr) {
-          config['frictionlessRequests'] = attr['frictionlessRequests'] === 'true';
+        if ('frictionlessrequests' in attr) {
+          config['frictionlessRequests'] = attr['frictionlessrequests'] === 'true';
         }
-        if ('hideFlashCallback' in attr) {
-          config['hideFlashCallback'] = attr['hideFlashCallback'] === 'true';
+        if ('hideflashcallback' in attr) {
+          config['hideFlashCallback'] = attr['hideflashcallback'] === 'true';
         }
         Facebook.init(config);
         e = document.createElement("script");
