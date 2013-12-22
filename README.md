@@ -1,7 +1,7 @@
 # facebook-ng
 [![Built Status](https://travis-ci.org/dabido/facebook-ng.png "Build Status")](https://travis-ci.org/dabido/facebook-ng/)
 
-facebook-ng is directive / factory for wrapping the Facebook javascript SDK
+facebook-ng is a directive / factory for wrapping the Facebook javascript SDK
 
 # Install
 Download the sources from this repository or simply use bower
@@ -36,10 +36,14 @@ All available options:
 Access the factory module through dependency injection by requesting for `Facebook`.
 The factory makes sure the facebook SDK is loaded before giving you access to it.
 
-Access the API like so:
+Access the SDK by calling `Facebook.FB`, with a callback as first parameter. The parameter will get called with the original untouched facebook SDK
+
+Example:
 
 ```javascript
-Facebook.FB(function (FB) { 
+// Request for Facebook SDK
+Facebook.FB(function (FB) {
+    // Use first parameter to access the facebook SDK
     FB.api('/me', function (response) {
        // (...)
     });
